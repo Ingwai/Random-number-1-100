@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #b8c6db;
+	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.box-container {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+	width: 60vh;
+	overflow: hidden;
+}
+
+.box-header {
+	padding: 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+h2 {
+	padding: 1rem;
+	text-align: center;
+}
+
+button {
+	background-color: rgba(136, 137, 247, 0.651);
+	color: #fff;
+	border: none;
+	width: 100%;
+	font-size: 1.1rem;
+	font-family: inherit;
+	cursor: pointer;
+	height: 3rem;
+}
+
+button:hover {
+	background-color: rgba(136, 137, 247, 1);
+}
+
+button:focus {
+	background-color: rgb(67, 192, 42);
+}
+
+p {
+	text-align: center;
+	padding: 0px;
+	font-size: 1.2rem;
+}
+
+.winnerbox {
+font-size: 1.5rem;
+text-transform: uppercase;
+}
+
+.box-number {
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#number {
+	width: 60px;
+	height: 50px;
+	border: 2px solid rgba(136, 137, 247, 0.651);
+	border-radius: 5px;
+	text-align: center;
+	font-size: 1.5rem;
+	color: green;
+}
